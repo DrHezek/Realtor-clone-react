@@ -9,6 +9,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import Header from "./Component/Header";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import CreateListing from "./pages/CreateListing";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Route>
           <Route path="/sign-in" element={<SignIn />}></Route>
           <Route path="/sign-up" element={<SignUp />}></Route>
+          <Route path="/create-listing" element={<CreateListing />}></Route>
           <Route path="/forgot-password" element={<ForgotPassword />}></Route>
         </Routes>
       </Router>
